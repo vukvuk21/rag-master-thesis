@@ -1,0 +1,29 @@
+﻿# Virtuelno okruženje
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Okruženje / tajne
+.env
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Modeli / veliki fajlovi (po potrebi za RAG)
+*.bin
+*.faiss
+*.json
+*.index
